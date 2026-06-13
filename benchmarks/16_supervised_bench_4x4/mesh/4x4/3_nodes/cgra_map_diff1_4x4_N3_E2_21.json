@@ -1,0 +1,44 @@
+{
+    "graph_name": "cgra_map_diff1_4x4_N3_E2_21",
+    "graph_properties": {
+        "node_count": 3,
+        "edge_count": 2,
+        "II": 1
+    },
+    "generation_properties": {
+        "difficulty": 1,
+        "recipe": {
+            "reconvergence": 0,
+            "convergence": 0
+        }
+    },
+    "architecture_properties": {
+        "type": "CGRA",
+        "dimensions": [
+            4,
+            4
+        ],
+        "interconnections": {
+            "mesh": true,
+            "diagonal": false,
+            "one_hop": false,
+            "toroidal": false
+        },
+        "interconnection_name": "mesh"
+    },
+    "placement": {
+        "add0": [3, 0, 0],
+        "add1": [3, 1, 0],
+        "add2": [2, 1, 0]
+    },
+    "edges": [
+        [
+            "add0",
+            "add1"
+        ],
+        [
+            "add1",
+            "add2"
+        ]
+    ]
+}

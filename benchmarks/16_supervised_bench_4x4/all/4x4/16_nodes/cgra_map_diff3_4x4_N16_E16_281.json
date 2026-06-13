@@ -1,0 +1,113 @@
+{
+    "graph_name": "cgra_map_diff3_4x4_N16_E16_281",
+    "graph_properties": {
+        "node_count": 16,
+        "edge_count": 16,
+        "II": 1
+    },
+    "generation_properties": {
+        "difficulty": 3,
+        "recipe": {
+            "reconvergence": 1,
+            "convergence": 0
+        }
+    },
+    "architecture_properties": {
+        "type": "CGRA",
+        "dimensions": [
+            4,
+            4
+        ],
+        "interconnections": {
+            "mesh": true,
+            "diagonal": true,
+            "one_hop": true,
+            "toroidal": true
+        },
+        "interconnection_name": "all"
+    },
+    "placement": {
+        "add0": [0, 0, 0],
+        "add1": [0, 2, 0],
+        "add2": [2, 2, 0],
+        "add3": [0, 3, 0],
+        "add4": [0, 1, 0],
+        "add5": [3, 1, 0],
+        "add6": [3, 2, 0],
+        "add7": [1, 1, 0],
+        "add8": [2, 1, 0],
+        "add9": [3, 0, 0],
+        "add10": [2, 3, 0],
+        "add11": [3, 3, 0],
+        "add12": [1, 0, 0],
+        "add13": [1, 3, 0],
+        "add14": [2, 0, 0],
+        "add15": [1, 2, 0]
+    },
+    "edges": [
+        [
+            "add0",
+            "add1"
+        ],
+        [
+            "add0",
+            "add3"
+        ],
+        [
+            "add1",
+            "add2"
+        ],
+        [
+            "add1",
+            "add4"
+        ],
+        [
+            "add1",
+            "add6"
+        ],
+        [
+            "add1",
+            "add7"
+        ],
+        [
+            "add1",
+            "add15"
+        ],
+        [
+            "add4",
+            "add5"
+        ],
+        [
+            "add6",
+            "add5"
+        ],
+        [
+            "add7",
+            "add8"
+        ],
+        [
+            "add8",
+            "add9"
+        ],
+        [
+            "add8",
+            "add10"
+        ],
+        [
+            "add9",
+            "add12"
+        ],
+        [
+            "add9",
+            "add14"
+        ],
+        [
+            "add10",
+            "add11"
+        ],
+        [
+            "add12",
+            "add13"
+        ]
+    ]
+}

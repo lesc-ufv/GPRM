@@ -1,0 +1,104 @@
+{
+    "graph_name": "cgra_map_diff4_4x4_N15_E14_340",
+    "graph_properties": {
+        "node_count": 15,
+        "edge_count": 14,
+        "II": 1
+    },
+    "generation_properties": {
+        "difficulty": 4,
+        "recipe": {
+            "reconvergence": 0,
+            "convergence": 2
+        }
+    },
+    "architecture_properties": {
+        "type": "CGRA",
+        "dimensions": [
+            4,
+            4
+        ],
+        "interconnections": {
+            "mesh": true,
+            "diagonal": true,
+            "one_hop": true,
+            "toroidal": true
+        },
+        "interconnection_name": "all"
+    },
+    "placement": {
+        "add0": [1, 2, 0],
+        "add1": [2, 0, 0],
+        "add2": [1, 0, 0],
+        "add3": [2, 2, 0],
+        "add4": [3, 1, 0],
+        "add5": [0, 1, 0],
+        "add6": [0, 0, 0],
+        "add7": [2, 3, 0],
+        "add8": [1, 1, 0],
+        "add9": [0, 3, 0],
+        "add10": [3, 0, 0],
+        "add11": [3, 3, 0],
+        "add12": [3, 2, 0],
+        "add13": [0, 2, 0],
+        "add14": [2, 1, 0]
+    },
+    "edges": [
+        [
+            "add0",
+            "add8"
+        ],
+        [
+            "add0",
+            "add9"
+        ],
+        [
+            "add1",
+            "add2"
+        ],
+        [
+            "add2",
+            "add0"
+        ],
+        [
+            "add2",
+            "add10"
+        ],
+        [
+            "add3",
+            "add0"
+        ],
+        [
+            "add4",
+            "add1"
+        ],
+        [
+            "add5",
+            "add6"
+        ],
+        [
+            "add5",
+            "add14"
+        ],
+        [
+            "add6",
+            "add1"
+        ],
+        [
+            "add7",
+            "add1"
+        ],
+        [
+            "add10",
+            "add11"
+        ],
+        [
+            "add10",
+            "add12"
+        ],
+        [
+            "add12",
+            "add13"
+        ]
+    ]
+}

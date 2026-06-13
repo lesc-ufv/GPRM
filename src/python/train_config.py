@@ -1,0 +1,2 @@
+class TrainConfig:
+    device = None

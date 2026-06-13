@@ -1,0 +1,13 @@
+networkx
+torch
+torch_geometric
+pyzmq
+performer-pytorch
+transformers
+torchinfo
+pydot
+tqdm
+msgpack
+tensorboard
+scipy
+matplotlib

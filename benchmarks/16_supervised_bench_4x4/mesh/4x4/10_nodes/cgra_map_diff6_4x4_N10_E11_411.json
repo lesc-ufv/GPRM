@@ -1,0 +1,87 @@
+{
+    "graph_name": "cgra_map_diff6_4x4_N10_E11_411",
+    "graph_properties": {
+        "node_count": 10,
+        "edge_count": 11,
+        "II": 1
+    },
+    "generation_properties": {
+        "difficulty": 6,
+        "recipe": {
+            "reconvergence": 2,
+            "convergence": 1
+        }
+    },
+    "architecture_properties": {
+        "type": "CGRA",
+        "dimensions": [
+            4,
+            4
+        ],
+        "interconnections": {
+            "mesh": true,
+            "diagonal": false,
+            "one_hop": false,
+            "toroidal": false
+        },
+        "interconnection_name": "mesh"
+    },
+    "placement": {
+        "add0": [2, 2, 0],
+        "add1": [2, 1, 0],
+        "add2": [3, 1, 0],
+        "add3": [3, 2, 0],
+        "add4": [1, 2, 0],
+        "add5": [1, 3, 0],
+        "add6": [2, 3, 0],
+        "add7": [2, 0, 0],
+        "add8": [1, 0, 0],
+        "add9": [1, 1, 0]
+    },
+    "edges": [
+        [
+            "add0",
+            "add1"
+        ],
+        [
+            "add0",
+            "add3"
+        ],
+        [
+            "add1",
+            "add2"
+        ],
+        [
+            "add1",
+            "add7"
+        ],
+        [
+            "add1",
+            "add9"
+        ],
+        [
+            "add3",
+            "add2"
+        ],
+        [
+            "add4",
+            "add0"
+        ],
+        [
+            "add5",
+            "add6"
+        ],
+        [
+            "add6",
+            "add0"
+        ],
+        [
+            "add7",
+            "add8"
+        ],
+        [
+            "add9",
+            "add8"
+        ]
+    ]
+}

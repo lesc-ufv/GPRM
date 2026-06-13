@@ -1,0 +1,9 @@
+
+build/*
+.vscode
+*.pyc
+*.cpython
+results/*
+tests/*
+*.png
+*.md

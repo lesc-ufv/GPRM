@@ -1,0 +1,35 @@
+strict digraph {
+    "add0" [opcode=add];
+    "add1" [opcode=add];
+    "add2" [opcode=add];
+    "add3" [opcode=add];
+    "add4" [opcode=add];
+    "add5" [opcode=add];
+    "add6" [opcode=add];
+    "add7" [opcode=add];
+    "add8" [opcode=add];
+    "add9" [opcode=add];
+    "add10" [opcode=add];
+    "add11" [opcode=add];
+    "add12" [opcode=add];
+    "add13" [opcode=add];
+    "add14" [opcode=add];
+
+    "add5" -> "add2";
+    "add2" -> "add0";
+    "add14" -> "add13";
+    "add4" -> "add2";
+    "add6" -> "add7";
+    "add3" -> "add2";
+    "add9" -> "add10";
+    "add12" -> "add13";
+    "add0" -> "add6";
+    "add0" -> "add8";
+    "add8" -> "add7";
+    "add8" -> "add9";
+    "add8" -> "add11";
+    "add11" -> "add10";
+    "add11" -> "add14";
+    "add11" -> "add12";
+    "add1" -> "add0";
+}
