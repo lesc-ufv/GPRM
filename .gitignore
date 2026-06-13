@@ -6,4 +6,4 @@ build/*
 results/*
 tests/*
 *.png
-*.md
+# *.md
